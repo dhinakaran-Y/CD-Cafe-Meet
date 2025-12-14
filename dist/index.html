@@ -8,20 +8,161 @@
     <meta name="keywords" content="">
     <meta title="author" content="Dhinakaran-Y">
     <title>cafe-meet | Dhinakaran-Y</title>
-    <link rel="stylesheet" crossorigin href="/assets/style-6Fv9gS0p.css">
+    <link
+      href="https://cdn.jsdelivr.net/combine/npm/daisyui@5/components/input.css,npm/daisyui@5/components/link.css,npm/daisyui@5/components/dropdown.css,npm/daisyui@5/components/navbar.css,npm/daisyui@5/components/toggle.css,npm/daisyui@5/components/footer.css,npm/daisyui@5/components/checkbox.css,npm/daisyui@5/components/card.css,npm/daisyui@5/components/textarea.css,npm/daisyui@5/components/button.css,npm/daisyui@5/components/tooltip.css"
+      rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" crossorigin href="/assets/style-ChEnC4Jl.css">
   </head>
-  <body>
-    <a href="/about.html" class="text-3xl font-bold underline text-red-500"> About </a>
-    <section class="bg-linear-to-r from-cyan-300 to-sky-100 p-16">
-      <h1 class="text-[12rem] font-extrabold uppercase
+  <body class="">
+    <!-- light- [#c2a488] -->
+     <!-- brown [#3c2f29] -->
+    <header class="shadow-2xl fixed w-full">
+      <nav class="navbar bg-base-100 bg-[#3c2f29] text-white px-5 || lg:px-25">
+        <!-- left -->
+        <div class="navbar-start">
+          <a class="">
+            <img src="/images/logo-2.jpg" alt="logo" class="w-10 h-10 rounded-full">
+          </a>
+        </div>
+        <!-- toggle -->
+        <div class="navbar-end">
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-20 mt-3 w-52 p-2 shadow **:hover:text-[#c2a488]">
+              <li><a href="">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="">Menu</a></li>
+              <li><a href="">Meeting</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="navbar-end hidden lg:flex">
+          <ul class="menu menu-horizontal flex space-x-5 px-1 **:hover:text-[#c2a488]">
+            <li><a href="">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Meeting</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="bg-transparent h-16"></div>
+    <main>
+    <!-- 1 -->
+    <section class="bg-linear-to-r from-[#c2a488] to-[#3c2f29] p-16 grid grid-cols-1 justify-items-center sticky top-0 || lg:grid-cols-12 lg:px-25 lg:content-center h-[90vh]">
+      <h1 class="text-6xl 2xl:text-[12rem] font-extrabold
                bg-[url('https://plus.unsplash.com/premium_photo-1671399374947-feee46d4388a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D')]
                bg-contain bg-center
                text-transparent
                bg-clip-text
                text-shadow-lg
-               text-shadow-black/20">
-        CYCLIST.
+               text-shadow-black/20 col || lg:col-span-6">
+       CAFE <br class="hidden lg:block"> MEET
       </h1>
+      <img src="/assets/3-SzBL5A4q.png" alt="hero" class="col w-full || lg:col-span-6 lg:w-100">
     </section>
+<!-- 2 -->
+    <section
+      class="bg-[#3c2f29] p-16 grid grid-cols-1 gap-5 text-xl justify-items-center text-white sticky top-0 || lg:grid-cols-12 lg:px-25 lg:content-center lg:gap-10 lg:h-[90vh]">
+      <div class="col || lg:col-span-6">
+       <img src="https://www.lyreco.com/group/ce/sites/centraleurope/files/styles/header_desktop/public/media/image/2022-05/GettyImages-611178972.jpg?itok=b-5x9WjO" alt="group-meet" class="rounded-2xl">
+      </div>
+      <div class="col || lg:col-span-6 lg:text-7xl">
+        <p>Lets start your Conversation with Our tasty coffee</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 16 16" class="mx-auto || lg:mt-10">
+          <g fill="none" stroke="#f5a97f" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.5 7c-.5 2.5-2 5.5-3 6.5s-2 1-3 1s-2 0-3.02-1C4.45 12.5 3 9.5 2.5 7c3 2 9 2 12 0m-12-2c3 2 9 2 12 0" />
+            <path
+              d="M2.5 8.4c-1.73 1.6-1.26 4.17 2 4.1M7 2c-.75-.36-1.5.18-1.5.74c-.01.56.94.78 1.5.75c.6-.03.97-.7 1.5-.96C8.98 2.3 9.41 2 10 2c.56 0 1.52.25 1.5 1c-.01.61-1.12.8-1.5.49" />
+          </g>
+        </svg>
+      </div>
+    </section>
+<!-- 3 -->
+    <section
+      class="bg-[#c2a488] p-16 grid grid-cols-1 gap-5 text-xl justify-items-center text-white sticky top-0 || lg:grid-cols-12 lg:px-25 lg:content-center lg:gap-15 h-[90vh]">
+      <div class="col || lg:col-span-6 lg:text-7xl">
+        <p>We are making your coffee come and sip it.</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 16 16" class="mx-auto || lg:mt-10">
+          <g fill="none" stroke="#3c2f29" stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M14.5 7c-.5 2.5-2 5.5-3 6.5s-2 1-3 1s-2 0-3.02-1C4.45 12.5 3 9.5 2.5 7c3 2 9 2 12 0m-12-2c3 2 9 2 12 0" />
+            <path
+              d="M2.5 8.4c-1.73 1.6-1.26 4.17 2 4.1M7 2c-.75-.36-1.5.18-1.5.74c-.01.56.94.78 1.5.75c.6-.03.97-.7 1.5-.96C8.98 2.3 9.41 2 10 2c.56 0 1.52.25 1.5 1c-.01.61-1.12.8-1.5.49" />
+          </g>
+        </svg>
+      </div>
+      <div class="col || lg:col-span-6">
+        <iframe class="rounded-2xl || lg:w-2xl lg:h-100" src="https://www.youtube.com/embed/jdguVU0F7fs?si=zoO-RN5T5S2Z5mDZ"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    </main>
+
+    <footer class="bg-[#3c2f29] grid  text-xs text-white/70 grid-cols-12 gap-y-5 px-10 *:max-lg:border-0 || lg:px-25 lg:text-sm lg:gap-10  lg:py-10">
+     <div class="border-r border-white/30 col-span-12 || lg:col-span-3">
+      <img src="/assets/logo-2-jG1xSheJ.jpg" alt="footer-icon" class="h-30">
+     </div>
+     <div class="space-y-2 col-span-12 || lg:col-span-2 ">
+      <div class="">
+      <a href="">Home</a></div>
+      <div class="">
+      <a href="">About</a></div>
+      <div class="">
+      <a href="">Menu</a></div>
+      <div class="">
+      <a href="">Meeting</a></div>
+     </div>
+     <div class="border-l border-white/30 col-span-12 || lg:col-span-4 lg:pl-5">
+      <div class="">© 2025 Cafe Meet</div>
+      <div class="">Designed and developed by <span class="underline">Dhinakaran-Y</span></div>
+     </div>
+     <!-- contact -->
+     <div class="border-l border-white/30 col-span-12 || lg:col-span-3 lg:pl-5">
+        <h2 class="font-semibold">FOLLOW US</h2>
+        <ul class="flex space-x-5 my-3">
+          <!-- 1 -->
+          <a href="" title="facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" />
+            </svg>
+          </a>
+          <!-- 2 -->
+          <a href="" title="instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+            </svg>
+          </a>
+          <!-- 3 -->
+          <a href="" title="youtube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M6.443 4.381C7.84 4.25 9.637 4.25 11.96 4.25h.082c2.322 0 4.119 0 5.516.131c1.407.133 2.517.406 3.409 1.03c.928.65 1.377 1.511 1.587 2.607c.197 1.024.197 2.321.197 3.907v.15c0 1.586 0 2.883-.197 3.907c-.21 1.096-.659 1.957-1.587 2.607c-.892.624-2.002.897-3.41 1.03c-1.396.131-3.193.131-5.515.131h-.082c-2.322 0-4.119 0-5.516-.131c-1.407-.133-2.517-.406-3.409-1.03c-.928-.65-1.377-1.511-1.587-2.607c-.197-1.024-.197-2.321-.197-3.907v-.15c0-1.586 0-2.883.197-3.907c.21-1.096.659-1.957 1.587-2.607c.892-.624 2.002-.897 3.41-1.03m5.115 4.564a1.166 1.166 0 0 0-1.608.313c-.13.191-.2.418-.2.65v4.184a1.16 1.16 0 0 0 1.8.968l3.175-2.074a1.155 1.155 0 0 0 .008-1.931z" />
+            </svg>
+          </a>
+          <!-- 4 -->
+          <a href="" title="twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.2 4.2 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.52 8.52 0 0 1-5.33 1.84q-.51 0-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23" />
+            </svg>
+          </a>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

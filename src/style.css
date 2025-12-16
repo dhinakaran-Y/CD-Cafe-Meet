@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+/* light- [#c2a488]  */
+/* brown [#3c2f29] */
+
+@theme{
+    --color-brand: #3c2f29;
+    --color-secondary-brand: #d7c0aa;
+    --color-secondary-dark-brand: #c2a488;
+}
+
+.menu-img{
+    @apply rounded 2xl:w-50 2xl:h-50
+}
+
+.menu-img-div{
+    @apply rounded-2xl bg-center bg-cover brightness-75 max-sm:w-40 max-sm:h-40 shadow-lg shadow-black/30
+     sm:w-50 sm:h-50
+     2xl:w-60 2xl:h-60;
+}
+
+.menu-title{
+    @apply font-semibold text-lg;
+}
+
+.menu-rs{
+    @apply text-[#3c2f29] font-semibold text-sm lg:text-2xl;
+}

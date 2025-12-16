@@ -17,10 +17,8 @@
 </head>
 
 <body class="">
-    <!-- light- [#c2a488] -->
-    <!-- brown [#3c2f29] -->
-    <header class="shadow-2xl fixed w-full">
-        <nav class="navbar bg-base-100 bg-[#3c2f29] text-white px-5 || lg:px-25">
+    <header class="shadow-2xl fixed w-full z-30">
+        <nav class="navbar bg-base-100 bg-brand text-white px-5 || lg:px-10 || xl:px-25">
             <!-- left -->
             <div class="navbar-start">
                 <a class="">
@@ -38,7 +36,7 @@
                         </svg>
                     </div>
                     <ul tabindex="-1"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-20 mt-3 w-52 p-2 shadow **:hover:text-[#c2a488]">
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-20 mt-3 w-52 p-2 shadow **:hover:text-secondary-brand bg-brand rounded">
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/menu">Menu</a></li>
@@ -48,7 +46,7 @@
             </div>
             <!-- right -->
             <div class="navbar-end hidden lg:flex">
-                <ul class="menu menu-horizontal flex space-x-5 px-1 **:hover:text-[#c2a488] font-semibold">
+                <ul class="menu menu-horizontal flex space-x-5 px-1 **:hover:text-secondary-brand font-semibold || lg:max-xl:space-x-3">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="menu">Menu</a></li>
@@ -59,112 +57,110 @@
     </header>
     <div class="bg-transparent h-16"></div>
     <main>
-        <section class="bg-[#c2a488] p-16 || lg:px-25 ">
-            <h1 class="text-center font-semibold mb-8 lg:text-2xl lg:font-bold underline">Coffees</h1>
+        <section class="bg-secondary-brand p-16 || lg:px-25 ">
+            <h1 class="text-center font-semibold mb-8 lg:text-4xl sm:font-bold underline || text-xl || sm:text-3xl">Coffees</h1>
             <div
-                class="grid grid-cols-1 gap-5 text-xl justify-items-center text-white || lg:grid-cols-12  lg:content-center lg:gap-10 *:lg:col-span-3 *:text-center">
+                class="grid grid-cols-1 gap-x-5 gap-y-8 text-xl justify-items-center text-white || sm:grid-cols-2 || lg:grid-cols-12  lg:content-center lg:gap-10 *:lg:col-span-3 *:text-center">
                 <!-- 1 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div class="menu-img-div bg-[url('/images/coffees/1-expresso.jpg')]"></div>
+                    <p class="menu-title">Espresso</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 2 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/coffees/2-americano.webp')]">
+                    </div>
+                    <p class="menu-title">Americano</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 3 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/coffees/3-cappuccino.webp')]">
+                    </div>
+                    <p class="menu-title">Cappuccino</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 4 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/coffees/4-frappe.webp')]">
+                    </div>
+                    <p class="menu-title">Frappe</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 5 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/coffees/5-arabica.jpg')]">
+                    </div>
+                    <p class="menu-title">Arabica</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 6 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/coffees/6-indian-filter-coffee.jpg')]">
+                    </div>
+                    <p class="menu-title">Filter Coffee</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 7 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/coffees/7-irish.webp')]">
+                    </div>
+                    <p class="menu-title">Irish</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 8 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/coffees/8-black-coffee.avif')]">
+                    </div>
+                    <p class="menu-title">Black coffee</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
 
             </div>
         </section>
-        <section class="bg-[#c2a488] px-16 pb-16 || lg:px-25 ">
-            <h1 class="text-center font-semibold mb-8 lg:text-2xl lg:font-bold underline">Snacks</h1>
+        <section class="bg-secondary-brand px-16 pb-16 || lg:px-25 ">
+            <h1 class="text-center font-semibold mb-8 lg:text-2xl sm:font-bold underline || text-xl || sm:text-3xl">Snacks</h1>
             <div
-                class="grid grid-cols-1 gap-5 text-xl justify-items-center text-white || lg:grid-cols-12  lg:content-center lg:gap-10 *:lg:col-span-3 *:text-center">
+                class="grid grid-cols-1 gap-x-5 gap-y-8 text-xl justify-items-center text-white || sm:grid-cols-2  || lg:grid-cols-12  lg:content-center lg:gap-10 *:lg:col-span-3 *:text-center">
                 <!-- 1 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/snacks/1-SaltBiscuits.webp')]">
+                    </div>
+                    <p class="menu-title">Butter Salt Biscuit</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 2 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/snacks/2-samosa-recipe.jpg')]">
+                    </div>
+                    <p class="menu-title">Samosa</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 3 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/snacks/3-puff.webp')]">
+                    </div>
+                    <p class="menu-title">Puff</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
                 <!-- 4 -->
                 <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
-                </div>
-                <!-- 5 -->
-                <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
-                </div>
-                <!-- 6 -->
-                <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
-                </div>
-                <!-- 7 -->
-                <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
-                </div>
-                <!-- 8 -->
-                <div class="hover:*:first:scale-105 hover:cursor-pointer  transition-all duration-1000 transform">
-                    <img src="./public/images/c-6.jpg" alt="1" class="rounded">
-                    <p class="font-semibold mt-2">Cold coffee</p>
-                    <p class="text-[#3c2f29] font-semibold">Rs.30</p>
+                    <div
+                        class="menu-img-div bg-[url('/images/snacks/4-omelette-sandwich.webp')]">
+                    </div>
+                    <p class="menu-title">Bread Ombelette</p>
+                    <p class="menu-rs">Rs.30</p>
                 </div>
         
             </div>
@@ -172,33 +168,35 @@
     </main>
 
     <footer
-        class="bg-[#3c2f29] grid  text-xs text-white/70 grid-cols-12 gap-y-5 px-10 *:max-lg:border-0 || lg:px-25 lg:text-sm lg:gap-10  lg:py-10">
-        <div class="border-r border-white/30 col-span-12 || lg:col-span-3">
+        class="bg-brand grid sticky top-0 text-xs text-white/70 grid-cols-12 gap-y-5 px-10 *:max-lg:border-0 || lg:px-25 lg:text-sm lg:gap-10  lg:py-10">
+        <div class="border-r border-white/30 col-span-12 || md:col-span-6 || lg:col-span-3">
             <img src="/public/images/logo-2.jpg" alt="footer-icon" class="h-30">
         </div>
-        <div class="space-y-2 col-span-12 || lg:col-span-2 ">
+        <div class="space-y-2 col-span-12 || md:col-span-6 sm:max-lg:pt-5 || lg:col-span-2 **:hover:text-white">
             <div class="">
-                <a href="">Home</a>
+                <a href="/">Home</a>
             </div>
             <div class="">
-                <a href="">About</a>
+                <a href="/about">About</a>
             </div>
             <div class="">
-                <a href="">Menu</a>
+                <a href="/menu">Menu</a>
             </div>
             <div class="">
-                <a href="">Meeting</a>
+                <a href="/meeting">Meeting</a>
             </div>
         </div>
-        <div class="border-l border-white/30 col-span-12 || lg:col-span-4 lg:pl-5">
+        <div class="border-l border-white/30 col-span-12 || md:col-span-6 || lg:col-span-4 lg:pl-5">
             <div class="">© 2025 Cafe Meet</div>
-            <div class="">Designed and developed by <span class="underline">Dhinakaran-Y</span></div>
-            <div class="">Github repository - <a href="https://github.com/dhinakaran-Y/CD-Cafe-Meet" target="_blank" class="underline">link</a> </div>
+            <div class="">Designed and developed by <a href="https://dhinakaran-y.github.io/My-Portfolio/" target="_blank"
+                    class="underline hover:text-white">Dhinakaran-Y</a></div>
+            <div class="">Github repository - <a href="https://github.com/dhinakaran-Y/CD-Cafe-Meet" target="_blank"
+                    class="underline hover:text-white">link</a> </div>
         </div>
         <!-- contact -->
-        <div class="border-l border-white/30 col-span-12 || lg:col-span-3 lg:pl-5">
+        <div class="border-l border-white/30 col-span-12 || md:col-span-6 || lg:col-span-3 lg:pl-5">
             <h2 class="font-semibold">FOLLOW US</h2>
-            <ul class="flex space-x-5 my-3">
+            <ul class="flex space-x-5 my-3 *:hover:**:fill-white">
                 <!-- 1 -->
                 <a href="" title="facebook">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">

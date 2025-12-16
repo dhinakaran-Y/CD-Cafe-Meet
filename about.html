@@ -15,10 +15,8 @@
     <link rel="stylesheet" href="/src/style.css">
 </head>
 <body class="">
-    <!-- light- [#c2a488] -->
-    <!-- brown [#3c2f29] -->
-    <header class="shadow-2xl fixed w-full">
-        <nav class="navbar bg-base-100 bg-[#3c2f29] text-white px-5 || lg:px-25">
+    <header class="shadow-2xl fixed w-full z-30">
+        <nav class="navbar bg-base-100 bg-brand text-white px-5 || lg:px-10 || xl:px-25">
             <!-- left -->
             <div class="navbar-start">
                 <a class="">
@@ -36,7 +34,7 @@
                         </svg>
                     </div>
                     <ul tabindex="-1"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-20 mt-3 w-52 p-2 shadow **:hover:text-[#c2a488]">
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-20 mt-3 w-52 p-2 shadow **:hover:text-secondary-brand bg-brand rounded">
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/menu">Menu</a></li>
@@ -46,7 +44,7 @@
             </div>
             <!-- right -->
             <div class="navbar-end hidden lg:flex">
-                <ul class="menu menu-horizontal flex space-x-5 px-1 **:hover:text-[#c2a488]  font-semibold">
+                <ul class="menu menu-horizontal flex space-x-5 px-1 **:hover:text-secondary-brand  font-semibold || lg:max-xl:space-x-3">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="menu">Menu</a></li>
@@ -58,75 +56,75 @@
     <div class="bg-transparent h-16"></div>
     <main>
         <section
-            class="bg-[#c2a488] p-16 || lg:px-25 ">
+            class="bg-secondary-brand || lg:px-25 lg:p-16">
             <!-- shop -->
             <div class="grid grid-cols-1 text-xl text-white || lg:grid-cols-12  lg:content-center *:text-center">
             <!-- 1 -->
-               <div class="lg:col-span-3">
-                <img src="https://i.pinimg.com/736x/cd/14/6e/cd146e6e2a71eaae80d18f13f117fbe2.jpg" alt="shop-img">
+               <div class="lg:col-span-5 lg:h-100 lg:content-center || sm:max-lg:w-70 sm:max-lg:h-70 sm:max-lg:mx-auto">
+                <img src="/images/about/room-3.jpg" alt="shop-img">
                </div>
                <!-- 2 -->
-               <div class="lg:col-span-9 lg:grid lg:grid-rows-10 lg:grid-flow-col">
-                 <div class="bg-[#c2a488] lg:row-span-2"></div>
-                 <div class="bg-[#3c2f29] lg:row-span-6 content-center px-5">
-                    <h2 class="text-2xl text-center font-semibold text-[[#c2a488]] mb-2">Our Cafe</h2>
-                    <div class="text-white/60 text-start">Hii, this is our cafe meet. Since, its works from 1980s, founded by Dhinakaran-Y in Perambalur.
-                        We give different types of coffees and the coffee beans are exported form world wide countries. Cafe Meet comes from an idea that everyone discuss there Conversation like business, date , friend / family fun & reunion with some private space with the sip of coffee. It’s
-                        all started at a small rented building on Roundana. By 2019, Couvee has 5 branches, one of them located in
-                        Tamilnadu.
+               <div class="lg:col-span-7 lg:grid lg:grid-rows-10 lg:grid-flow-col">
+                 <div class="bg-secondary-brand || lg:row-span-3 || xl:row-span-2"></div>
+                 <div class="bg-brand content-center px-5 || max-lg:py-10 || lg:row-span-4 || xl:row-span-6 lg:pb-2">
+                    <h2 class="text-2xl text-center font-semibold text-[secondary-brand] mb-2 || lg:max-xl:text-lg">Our Cafe</h2>
+                    <div class="text-white/60 text-start || lg:max-xl:text-sm">Hello, Welcome to Our coffee meet. Since, its works from 1980s, founded by Dhinakaran-Y in Perambalur.
+                        We give different types of coffees are exported form world wide countries.The Cafe Meet comes from an idea that everyone discuss there Conversation like business, dating, friends fun & reunion with some private space with the sip of coffee.
                     </div>
                  </div>
-                 <div class="bg-[#c2a488] lg:row-span-2"></div>
+                 <div class="bg-secondary-brand || lg:row-span-3 || xl:row-span-2"></div>
                </div>
             </div>
             <!-- master -->
             <div class="grid grid-cols-1 text-xl text-white || lg:grid-cols-12  lg:content-center *:text-center lg:mt-30">
                 <!-- 1 -->
                 <div class="lg:col-span-9 lg:grid lg:grid-rows-10 lg:grid-flow-col">
-                    <div class="bg-[#c2a488] lg:row-span-2"></div>
-                    <div class="bg-[#3c2f29] lg:row-span-6 content-center px-5">
-                        <h2 class="text-2xl text-center font-semibold text-[[#c2a488]] mb-2">Our Coffee Master</h2>
-                        <div class="text-white/60 text-start">Master Maria Lawrencs he had 45 years of experience in making different types of coffee.In his journey he served many kings and queens like queen of Elizabeth Alexandra Mary Windsor
+                    <div class="bg-secondary-brand lg:row-span-2"></div>
+                    <div class="bg-brand lg:row-span-6 content-center px-5 || max-lg:py-10 max-lg:bg-secondary-brand">
+                        <h2 class="text-2xl text-center font-semibold text-[secondary-brand] mb-2 || lg:max-xl:text-lg">Our Coffee Master</h2>
+                        <div class="text-white/60 text-start max-sm:text-white/80 || lg:max-xl:text-sm">Master Maria Lawrencs he had 45 years of experience in making different types of coffee.In his journey he served many kings and queens like queen of Elizabeth Alexandra Mary Windsor
                         </div>
                    </div>
-                    <div class="bg-[#c2a488] lg:row-span-2"></div>
+                    <div class="bg-secondary-brand lg:row-span-2"></div>
                 </div>
                 <!-- 2 -->
-                <div class="lg:col-span-3">
-                    <img src="/public/images/chef.jpg" alt="shop-img" class="">
+                <div class="lg:col-span-3 || sm:max-lg:w-70 sm:max-lg:mb-3 sm:max-lg:mx-auto">
+                    <img src="/images/about/chef.jpg" alt="shop-img" class="">
                 </div>
             </div>
         </section>
     </main>
 
     <footer
-        class="bg-[#3c2f29] grid  text-xs text-white/70 grid-cols-12 gap-y-5 px-10 *:max-lg:border-0 || lg:px-25 lg:text-sm lg:gap-10  lg:py-10">
-        <div class="border-r border-white/30 col-span-12 || lg:col-span-3">
+        class="bg-brand grid sticky top-0 text-xs text-white/70 grid-cols-12 gap-y-5 px-10 *:max-lg:border-0 || lg:px-25 lg:text-sm lg:gap-10  lg:py-10">
+        <div class="border-r border-white/30 col-span-12 || md:col-span-6 || lg:col-span-3">
             <img src="/public/images/logo-2.jpg" alt="footer-icon" class="h-30">
         </div>
-        <div class="space-y-2 col-span-12 || lg:col-span-2 ">
+        <div class="space-y-2 col-span-12 || md:col-span-6 sm:max-lg:pt-5 || lg:col-span-2 **:hover:text-white">
             <div class="">
-                <a href="">Home</a>
+                <a href="/">Home</a>
             </div>
             <div class="">
-                <a href="">About</a>
+                <a href="/about">About</a>
             </div>
             <div class="">
-                <a href="">Menu</a>
+                <a href="/menu">Menu</a>
             </div>
             <div class="">
-                <a href="">Meeting</a>
+                <a href="/meeting">Meeting</a>
             </div>
         </div>
-        <div class="border-l border-white/30 col-span-12 || lg:col-span-4 lg:pl-5">
+        <div class="border-l border-white/30 col-span-12 || md:col-span-6 || lg:col-span-4 lg:pl-5">
             <div class="">© 2025 Cafe Meet</div>
-            <div class="">Designed and developed by <span class="underline">Dhinakaran-Y</span></div>
-            <div class="">Github repository - <a href="https://github.com/dhinakaran-Y/CD-Cafe-Meet" target="_blank" class="underline">link</a> </div>
+            <div class="">Designed and developed by <a href="https://dhinakaran-y.github.io/My-Portfolio/" target="_blank"
+                    class="underline hover:text-white">Dhinakaran-Y</a></div>
+            <div class="">Github repository - <a href="https://github.com/dhinakaran-Y/CD-Cafe-Meet" target="_blank"
+                    class="underline hover:text-white">link</a> </div>
         </div>
         <!-- contact -->
-        <div class="border-l border-white/30 col-span-12 || lg:col-span-3 lg:pl-5">
+        <div class="border-l border-white/30 col-span-12 || md:col-span-6 || lg:col-span-3 lg:pl-5">
             <h2 class="font-semibold">FOLLOW US</h2>
-            <ul class="flex space-x-5 my-3">
+            <ul class="flex space-x-5 my-3 *:hover:**:fill-white">
                 <!-- 1 -->
                 <a href="" title="facebook">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">

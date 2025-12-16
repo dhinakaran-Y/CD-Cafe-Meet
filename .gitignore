@@ -10,6 +10,7 @@ lerna-debug.log*
 node_modules
 *.local
 design
+public/images/not-used-img/
 
 # Editor directories and files
 .vscode/*

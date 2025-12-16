@@ -17,10 +17,8 @@
 </head>
 
 <body class="">
-    <!-- light- [#c2a488] -->
-    <!-- brown [#3c2f29] -->
-    <header class="shadow-2xl fixed w-full">
-        <nav class="navbar bg-base-100 bg-[#3c2f29] text-white px-5 || lg:px-25">
+    <header class="shadow-2xl fixed w-full z-30">
+        <nav class="navbar bg-base-100 bg-brand text-white px-5 || lg:px-10 || xl:px-25">
             <!-- left -->
             <div class="navbar-start">
                 <a class="">
@@ -38,7 +36,7 @@
                         </svg>
                     </div>
                     <ul tabindex="-1"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-20 mt-3 w-52 p-2 shadow **:hover:text-[#c2a488]">
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-20 mt-3 w-52 p-2 shadow **:hover:text-secondary-brand bg-brand rounded">
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/menu">Menu</a></li>
@@ -48,7 +46,7 @@
             </div>
             <!-- right -->
             <div class="navbar-end hidden lg:flex">
-                <ul class="menu menu-horizontal flex space-x-5 px-1 **:hover:text-[#c2a488]  font-semibold">
+                <ul class="menu menu-horizontal flex space-x-5 px-1 **:hover:text-secondary-brand  font-semibold || lg:max-xl:space-x-3">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="menu">Menu</a></li>
@@ -59,68 +57,80 @@
     </header>
     <div class="bg-transparent h-16"></div>
     <main>
-        <section class="bg-[#c2a488] p-16 || lg:px-25 ">
+        <section class="bg-secondary-brand p-16 space-y-5 || lg:px-25 lg:space-y-0">
             <!-- shop -->
             <div class="grid grid-cols-1 text-xl text-white || lg:grid-cols-12  lg:content-center *:text-center">
                 <!-- 1 -->
-                <div class="lg:col-span-3">
-                    <img src="/public/images/room-3.jpg" alt="shop-img">
+                <div class="lg:col-span-5">
+                    <img src="/public/images/about/room-3.jpg" alt="shop-img">
                 </div>
                 <!-- 2 -->
-                <div class="lg:col-span-9 lg:grid lg:grid-rows-10 lg:grid-flow-col">
-                    <div class="bg-[#c2a488] lg:row-span-4"></div>
-                    <div class="bg-[#3c2f29] lg:row-span-2 content-center px-5 rounded-r-full">
-                        <h2 class="text-2xl text-center font-semibold text-[[#c2a488]] mb-2">Common room</h2>
+                <div class="lg:col-span-7 lg:grid lg:grid-rows-10 lg:grid-flow-col">
+                    <div class="bg-secondary-brand lg:row-span-4"></div>
+                    <div class="lg:bg-brand lg:row-span-2 content-center px-5 rounded-full || max-lg:my-3 || lg:rounded-r-full lg:rounded-l-none">
+                        <h2 class="text-center text-[secondary-brand] || lg:font-semibold lg:text-2xl">Common room</h2>
                     </div>
-                    <div class="bg-[#c2a488] lg:row-span-4"></div>
+                    <div class="bg-secondary-brand lg:row-span-4"></div>
                 </div>
             </div>
             <!-- master -->
             <div class="grid grid-cols-1 text-xl text-white || lg:grid-cols-12  lg:content-center *:text-center lg:mt-30">
                 <!-- 1 -->
-                <div class="lg:col-span-9 lg:grid lg:grid-rows-10 lg:grid-flow-col">
-                    <div class="bg-[#c2a488] lg:row-span-4"></div>
-                    <div class="bg-[#3c2f29] lg:row-span-2 content-center px-5 rounded-l-full">
-                        <h2 class="text-2xl text-center font-semibold text-[[#c2a488]] mb-2">Private room - <span class="text-red-500">hour / Rs.100</span> only 🙂</h2>
+                <div class="lg:col-span-7 hidden lg:grid-rows-10 lg:grid-flow-col || lg:grid">
+                    <div class="bg-secondary-brand lg:row-span-4"></div>
+                    <div class="bg-brand lg:row-span-2 content-center px-5 rounded-full || max-sm:my-3 || lg:rounded-l-full lg:rounded-r-none">
+                        <h2 class="text-center text-[secondary-brand] || lg:font-semibold lg:text-2xl max-md:text-sm">Private room - <span class="text-red-500">hour / Rs.100</span> only 🙂</h2>
                     </div>
-                    <div class="bg-[#c2a488] lg:row-span-4"></div>
+                    <div class="bg-secondary-brand lg:row-span-4"></div>
                 </div>
                 <!-- 2 -->
-                <div class="lg:col-span-3">
-                    <img src="/public/images/room-2.jpg" alt="shop-img" class="">
+                <div class="lg:col-span-5">
+                    <img src="/public/images/room/room-2.jpg" alt="shop-img" class="">
+                </div>
+                <!-- small-1 -->
+                <div class="lg:col-span-9 lg:hidden lg:grid-rows-10 lg:grid-flow-col grid">
+                    <div class="bg-secondary-brand lg:row-span-4"></div>
+                    <div
+                        class="lg:bg-brand lg:row-span-2 content-center px-5 rounded-full || max-lg:my-3 || lg:rounded-l-full lg:rounded-r-none">
+                        <h2 class="text-center max-md:text-sm text-[secondary-brand] || lg:font-semibold lg:text-2xl">Private room - <span
+                                class="text-brand">hour / Rs.100</span> only</h2>
+                    </div>
+                    <div class="bg-secondary-brand lg:row-span-4"></div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer
-        class="bg-[#3c2f29] grid  text-xs text-white/70 grid-cols-12 gap-y-5 px-10 *:max-lg:border-0 || lg:px-25 lg:text-sm lg:gap-10  lg:py-10">
-        <div class="border-r border-white/30 col-span-12 || lg:col-span-3">
+        class="bg-brand grid sticky top-0 text-xs text-white/70 grid-cols-12 gap-y-5 px-10 *:max-lg:border-0 || lg:px-25 lg:text-sm lg:gap-10  lg:py-10">
+        <div class="border-r border-white/30 col-span-12 || md:col-span-6 || lg:col-span-3">
             <img src="/public/images/logo-2.jpg" alt="footer-icon" class="h-30">
         </div>
-        <div class="space-y-2 col-span-12 || lg:col-span-2 ">
+        <div class="space-y-2 col-span-12 || md:col-span-6 sm:max-lg:pt-5 || lg:col-span-2 **:hover:text-white">
             <div class="">
-                <a href="">Home</a>
+                <a href="/">Home</a>
             </div>
             <div class="">
-                <a href="">About</a>
+                <a href="/about">About</a>
             </div>
             <div class="">
-                <a href="">Menu</a>
+                <a href="/menu">Menu</a>
             </div>
             <div class="">
-                <a href="">Meeting</a>
+                <a href="/meeting">Meeting</a>
             </div>
         </div>
-        <div class="border-l border-white/30 col-span-12 || lg:col-span-4 lg:pl-5">
+        <div class="border-l border-white/30 col-span-12 || md:col-span-6 || lg:col-span-4 lg:pl-5">
             <div class="">© 2025 Cafe Meet</div>
-            <div class="">Designed and developed by <span class="underline">Dhinakaran-Y</span></div>
-            <div class="">Github repository - <a href="https://github.com/dhinakaran-Y/CD-Cafe-Meet" target="_blank" class="underline">link</a> </div>
+            <div class="">Designed and developed by <a href="https://dhinakaran-y.github.io/My-Portfolio/" target="_blank"
+                    class="underline hover:text-white">Dhinakaran-Y</a></div>
+            <div class="">Github repository - <a href="https://github.com/dhinakaran-Y/CD-Cafe-Meet" target="_blank"
+                    class="underline hover:text-white">link</a> </div>
         </div>
         <!-- contact -->
-        <div class="border-l border-white/30 col-span-12 || lg:col-span-3 lg:pl-5">
+        <div class="border-l border-white/30 col-span-12 || md:col-span-6 || lg:col-span-3 lg:pl-5">
             <h2 class="font-semibold">FOLLOW US</h2>
-            <ul class="flex space-x-5 my-3">
+            <ul class="flex space-x-5 my-3 *:hover:**:fill-white">
                 <!-- 1 -->
                 <a href="" title="facebook">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">

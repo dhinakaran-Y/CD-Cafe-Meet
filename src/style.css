@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Imperial+Script&family=Italiana&family=Lavishly+Yours&family=Montserrat:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sevillana&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import "tailwindcss";
 
 /* light- [#c2a488]  */
@@ -7,6 +8,12 @@
     --color-brand: #3c2f29;
     --color-secondary-brand: #d7c0aa;
     --color-secondary-dark-brand: #c2a488;
+    --font-play-fair: "Playfair Display", serif;
+    --font-montserrat:  "Titillium Web", sans-serif;
+}
+
+body{
+    @apply font-play-fair
 }
 
 .menu-img{

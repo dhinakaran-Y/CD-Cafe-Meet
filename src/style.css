@@ -8,6 +8,7 @@
     --color-brand: #3c2f29;
     --color-secondary-brand: #d7c0aa;
     --color-secondary-dark-brand: #c2a488;
+    --color-more: #b18760;
     --font-play-fair: "Playfair Display", serif;
     --font-montserrat:  "Titillium Web", sans-serif;
 }
@@ -21,8 +22,9 @@ body{
 }
 
 .menu-img-div{
-    @apply rounded-2xl bg-center bg-cover brightness-75 max-sm:w-40 max-sm:h-40 shadow-lg shadow-black/30
-     sm:w-50 sm:h-50
+    @apply rounded-2xl bg-center bg-cover brightness-75 max-sm:w-70 max-sm:h-50 shadow-lg shadow-black/30
+     sm:w-64 sm:h-50
+     lg:w-50
      2xl:w-60 2xl:h-60;
 }
 

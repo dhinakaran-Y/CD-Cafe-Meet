@@ -33,5 +33,9 @@ body{
 }
 
 .menu-rs{
-    @apply text-[#3c2f29] font-semibold text-sm lg:text-2xl;
+    @apply text-brand font-semibold text-sm lg:text-2xl;
+}
+
+.show-more-btn{
+    @apply flex justify-center content-between space-x-1 bg-brand flex-nowrap text-white px-5 py-2 rounded-full *:flex-none *:ml-1 hover:brightness-125 items-center max-sm:text-sm max-sm:px-3 max-sm:py-1 *:last:w-5 *:last:h-5 *:last:mt-1 ;
 }
